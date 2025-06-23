@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import Company from '../models/company.js';
+import Company from '../models/Company.js';
 
 export const protectCompany = async (req, res, next) => {
     // get token directly from req.headers.token
